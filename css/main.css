@@ -1,0 +1,121 @@
+
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+main {
+	display: flex;
+	box-sizing: border-box;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.container {
+	margin-top: 1rem;
+	width: 30%;
+	border: 4px solid black;
+	text-align: center;
+	transition: .6s;
+}
+
+.container p {
+	color: black;
+	margin-top: 1rem;
+	font-size: 3rem;
+	text-shadow: 2px 2px 8px black;
+	transition: .6s;
+}
+
+.btns {
+	width: 100%;
+	display: flex;
+	box-sizing: border-box;
+	flex-wrap: wrap;
+	justify-content: center;
+	transition: .6s;
+}
+
+.containerBorder {
+	border: 4px solid #2f528f;
+}
+
+.borders {
+	color: #2f528f;
+	border: 3px solid #2f528f;
+}
+
+.white {
+	/*background-color: white !important;*/
+	background-image: linear-gradient(to bottom right, white, white) !important;
+}
+
+button {
+	cursor: pointer;
+	margin: 1rem;
+	width: 6rem;
+	height: 3rem;
+	transition: .6s;
+	background: none;
+	border: 2px solid black;
+}
+
+.squareBackground {
+	border: 1px solid white !important;
+	/*background-color: #b9c6ef;*/
+	background-image: linear-gradient(to bottom right, white, #b9c6ef);
+}
+
+.squares {
+	margin-bottom: 1rem;
+}
+
+.square {
+	margin: 0;
+	border: 1px solid black;
+	width: 60px;
+	height: 60px;
+
+}
+
+.squaresRowOne {
+	display: flex;
+	box-sizing: border-box;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+.squaresRowTwo {
+	display: flex;
+	box-sizing: border-box;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+.squaresRowThree {
+	display: flex;
+	box-sizing: border-box;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+.table {
+	display: flex;
+	box-sizing: border-box;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+table td {
+	border: 1px solid black;
+}
+
+
+@media screen and (max-width: 767px) {
+	.container p {
+		font-size: 1.6rem;
+	}
+
+	button {
+		width: 4rem;
+	}
+}
